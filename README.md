@@ -102,7 +102,7 @@
 | Project | Description | Tech | Repo |
 |------|------------|------|------|
 | **LeNet-5 CNN NPU Verification** | UVM environment for a multi-clock-domain FP16 LeNet-5 inference NPU. A virtual sequencer coordinates SPI register and weight writes (Synopsys SPI VIP, 522 registers in UVM RAL) with the pixel stream, and a NumPy FP16 reference model matching the RTL accumulation order drives bit-exact checks. 27 chip-level regressions reached 97.5% line, 96.6% branch, and 100% in-scope functional coverage. Root-caused an adder alignment bug and a CDC FIFO path without full-flag backpressure, then added three SVA checks. | SystemVerilog, UVM, SVA, VCS, Verdi, Python, NumPy | Private (course material, licensed VIP) |
-| **Asynchronous FIFO** | Gray-coded-pointer FIFO with parameterized width and depth, plus a class-based SystemVerilog testbench: generator, driver, monitor, scoreboard, and clock/reset generators, with coverage collected in VCS. | SystemVerilog, VCS | [Async FIFO](https://github.com/CoffeeBeforeArch7/Asynchronous_FIFO_Design_and_Verification_Framework) |
+| **Asynchronous FIFO** | Gray-pointer FIFO following the Cummings SNUG 2002 structure, with a class-based SystemVerilog testbench: generator, driver, monitor, a scoreboard with a write/read covergroup, and clock and reset generators. Coverage collected in VCS. | SystemVerilog, VCS | [Async FIFO](https://github.com/CoffeeBeforeArch7/Asynchronous_FIFO_Design_and_Verification_Framework) |
 
 ---
 
