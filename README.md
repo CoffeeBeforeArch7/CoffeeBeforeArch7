@@ -110,7 +110,7 @@
 
 | Project | Description | Tech | Repo |
 |------|------------|------|------|
-| **Zynq SoC Lab Series** | Four-part FPGA/SoC lab series (ECE 527 MP1a–d) on a Zynq-based platform, covering the Vivado flow, embedded SoC design, the AXI protocol, and DMA. | Vivado, Zynq, AXI, DMA | [Zynq Labs](https://github.com/CoffeeBeforeArch7/Zynq-based-Accelerator) |
+| **Zynq SoC Lab Series** | Four-part lab series on a Zynq platform (ECE 527 MP1a–d): switch and LED logic, a processing-system and AXI GPIO design, and a Caesar-cipher accelerator with AXI-Stream data and AXI-Lite control, fed by AXI DMA. | Verilog, Vivado, Zynq, AXI, DMA | [Zynq Labs](https://github.com/CoffeeBeforeArch7/Zynq-based-Accelerator) |
 | **drawio-arch-kit** | Python kit that draws dark-theme architecture diagrams in draw.io from code. A four-step text → ASCII → design → draw.io workflow, plus two self-check scripts that catch diagonal wires, lines through boxes, and overlapping text. Sample: a four-page 5-stage RV32I pipeline diagram. Docs in Chinese. | Python, draw.io | [drawio-arch-kit](https://github.com/CoffeeBeforeArch7/drawio-arch-kit) |
 
 ---
